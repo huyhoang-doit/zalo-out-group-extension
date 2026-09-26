@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Zalo Bulk Out Group",
+    "version": "1.0",
+    "description": "Hỗ trợ rời nhóm Zalo hàng loạt trên Zalo Web",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_title": "Mở Zalo Bulk Out Group"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://chat.zalo.me/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
