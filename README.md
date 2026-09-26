@@ -3,6 +3,7 @@
 Tiện ích mở rộng (Chrome Extension) giúp bạn tự động rời hàng loạt nhóm trên Zalo Web (`chat.zalo.me`).
 
 ## 🎬 Demo
+https://github.com/user-attachments/assets/dfa3079f-1d57-4b18-980a-6e46dd290e82
 
 
 > 📌 **Ghi chú cập nhật:** Phương án và mã nguồn của công cụ này đã được test và đang hoạt động rất tốt, tương thích hoàn toàn với giao diện và cấu trúc DOM của phiên bản Zalo Web tính đến ngày **26/09/2026**.
